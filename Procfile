@@ -1,1 +1,1 @@
-web: bundle exec puma -C app.rb
+web: ruby app.rb
