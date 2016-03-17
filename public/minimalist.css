@@ -1,0 +1,131 @@
+/* 
+-----------------------------------------------
+Name:     Minimalist
+Designer: Ryo Helmenkalastaja
+URL:      http://facebook.com/RuiYou
+Date:     1 March 2012
+Updated by: Ryo Helmenkalastaja
+----------------------------------------------- 
+*/
+
+body {
+	margin: 0;
+	padding-top: 20px;
+	text-align: left;
+	font-family: "Lucida Sans Unicode", Arial,"Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #fdfdfd;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#logo
+{
+width:920px;
+display:block;
+height:auto;
+position:relative;
+padding-left: 0px;
+overflow:visible;
+background-image:url(Name.png);
+background-position:center right;
+background-repeat: no-repeat;
+}
+
+#page
+{
+display: block;
+padding-right: 860px;
+  height:auto;
+  position: relative;
+  width: auto;
+overflow:visible;
+}
+
+.topNavigationLink
+{
+display: block;
+line-height: 16px;
+text-align:left;
+padding-left: 10px;
+font-size:10px;
+color: #a62f00;
+font-weight:bold;
+font-family:"Verdana", Georgia, "Times New Roman", Times, serif;
+text-transform: lowercase;
+}
+
+
+.topNavigationLink a
+{
+display: block;
+color: #888888;
+text-decoration:none;
+font-weight:bold;
+text-transform: lowercase;
+}
+
+.topNavigationLink a:hover
+{
+display: block;
+text-transform: lowercase;
+color:#ff4900;
+}
+
+#Separator
+{
+display:block;
+height:0px;
+width:900px;
+padding-bottom:1px;
+background-image:url(Separator.png);
+background-repeat: repeat-x;
+}
+
+#mainPicture
+{
+padding-top:15px;
+width:902px;
+height:482px;
+}
+
+#mainPicture .picture
+{
+padding-top:15px;
+width:900px;
+height:480px;
+top:10px;
+background-image:url(Rose.jpg);
+background-repeat:no-repeat;
+border:solid 1px;
+border-color:#dddddd;
+}
+
+#footer {
+
+width: 920px;
+height:auto;
+position:relative;
+bottom:0px;
+text-align:center;
+font-size:9px;
+font-family:Arial, Helvetica, sans-serif;
+color:#386172;
+padding-top:23px;
+padding-left:0px;
+}
+
+#footer a
+{
+text-decoration:none;
+font-size:9px;
+color:#386172;
+}
+
+html, body {
+text-align: left;
+}
+p {text-align: left;}
